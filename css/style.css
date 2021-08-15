@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Quicksand:wght@300;400&display=swap');
+h1,h2{
+	font-family: 'Josefin Sans', sans-serif;
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto
+}
+.clear{
+	clear: both;
+}
+.wrapper{
+	width: 100%;
+	background: #0F0F0F;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+/*	height: 100%;*/
+/*	background: #0F0F0F;*/
+}
+.logo{
+	width: 20%;
+	height: 60px;
+	float: left;
+}
+.logo img{
+	height: 50px;
+	margin: 10px 50px;
+}
+.nav-header{
+	width: 80%;
+	height: 60px;
+	float: left;
+}
+.nav-header ul{
+	list-style: none;
+/*	text-align: center;*/
+}
+.nav-header li{
+	display: inline-block;
+	line-height: 60px;
+	margin: 0 60px 0 0;
+}
+.nav-header li a{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2px;
+}
+.nav-header ul li a:hover{
+	color: darkgoldenrod;
+}
+.banner{
+	width: 100%;
+	height: 700px;	
+	background: url("../img/cG9PmQzhcf3oFaMJ0gwoIO4qPH+25r29W9wDRjqKnA1EJdsYJsPP+FXavne6wOTupJR1ygjHpW0dD3RofZFw1RS9mb2bt6wtpYnOkD2lRJjJAU9g6LDB3r3pBHrVelsRLJ9gOnpeXozAjUnFCNI18gjTihXlHua4CetWrlB+ORWDMfHGSGdyKUgnXUlT3NStiXC3uhKMZFYsIcQvcnGELUG1.jpg");	
+}
+.banner h1{
+	text-align: center;
+	color: white;
+	padding: 250px 0 0;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.banner p{
+	text-align: center;
+	color: white;
+	padding: 5px 0;
+	font-size: 20px;
+	letter-spacing: 5px;
+	margin-bottom: 100px;
+}
+.banner a{
+	text-decoration: none;
+}
+.moreinfo{
+	width: 120px;
+	height: 40px;
+/*	background-color: white;*/
+	margin: 0 auto;
+	border-radius:100px/100px;
+	border: 2px solid white;
+}
+.moreinfo p:hover{
+	color: darkgoldenrod;
+}
+.moreinfo p{
+/*	margin: 0 auto;*/
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+/*main*/
+.main{
+	width: 100%;
+}
+/*story*/
+.story{
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	background-color:#F1F1F1;
+}
+.logo-story{
+	width: 200px;
+/*	height: 100px;*/
+	padding:260px 0 0 170px;
+	float: left;
+}
+.logo-story img{
+	width: 100%;
+}
+.box-story{
+	width: 600px;
+	padding: 150px 0 0 500px;
+}
+.box-story h1{
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.box-story h2{
+	font-size: 15px;
+	color: darkgoldenrod;
+	letter-spacing: 1px;
+	margin-bottom: 60px;
+}
+.box-story-1{
+	width: 260px;
+	height: 300px;
+	float: left;
+	margin-right: 40px
+}.box-story-2{
+	width: 260px;
+	height: 300px;
+	float: left;
+}
+/*aboutus*/
+.aboutus{
+	width: 1200px;
+	height: 665px;
+	margin: 0 auto;
+	background: url("../img/qiSlE+3dfwDlQlYik6a_5cVct8HjKdc1CbFf_2q7u164fqMWyRk5sKFX4mktG7ssbmYygZaSwiipq2kbHMSQcheDTv1YqvABXp72q_7JofAgZxEUSE6kgMoAJH2t1FzmftzADzRISuadk28TW2ZY7FeZF2z3G0QfbAmx4UlK6L8OeGO11VOChd50wPcprDDezoAYmogZAQFx3G28hJ1KokWC.jpg");
+	background-size: cover;
+}
+.aboutus h1{
+	color: white;
+/*	text-decoration: underline;*/
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding: 180px 0 0 100px ;
+}
+.box-about{
+	width: 280px;
+	padding: 20px 0 0 100px;
+	color: white;
+	font-size: 19px;
+}
+/*footer*/
+.footer{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background: url("../img/hNOgjBRoOCqtQeJtt5md48fWtm72K5iqyoOr2IZxMfQENwzqHSue9mZHTAlPAHy9wkAAOB1_k8qNKaYtSnGmoF26g2w9ZtCJ_AA5pIHvlj7dgoIcBrSfJ8JXr6bZ3lzdAjhO9Qo1H4dx4Z0jeySEzraCWSnhha_vm1qpASrk4gsh4aAiPGZB4q7W9BLIM+aKtj5pXeLKjOw+UAW55cc8iz6M.jpg");
+	background-size: cover;
+}
+.logo-footer{
+	width: 100px;
+	margin:  0 auto;
+	padding-top: 180px;
+}
+.logo-footer img{
+	width: 100%;
+	opacity: 0.5;
+}
+.nav-footer{
+	width: 100%;
+	height: 60px;
+}
+.nav-footer ul{
+	list-style: none;
+/*	margin: 0 auto;*/
+	text-align: center;
+	padding-top: 60px;
+}
+.nav-footer li{
+	display: inline-block;
+	line-height: 60px;
+	margin: 0 30px 0 30px;
+}
+.nav-footer li a{
+	text-decoration: none;
+	color: white;
+	opacity: 0.5;
+	letter-spacing: 2px;
+}
+.nav-footer ul li a:hover{
+	opacity: 1;
+/*	color: white;*/
+}
+.footer p{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 170px;
+	opacity: 0.5;
+}
